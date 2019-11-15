@@ -15,7 +15,6 @@ $color-secondary: #81d4fa;
 
 @mixin color-scheme($bg, $text, $highlight) {
   color: $text;
-  //background-color: $bg;
   background-color: #FCFAF2;
 
   a,
@@ -89,22 +88,22 @@ h6 {
 }
 
 h1 {
-  font-size: 1.6em; 
+  font-size: 1.6em;
 }
 h2 {
-  font-size: 1.4em; 
+  font-size: 1.4em;
 }
 h3 {
-  font-size: 1.3em; 
+  font-size: 1.3em;
 }
 h4 {
-  font-size: 1.2em; 
+  font-size: 1.2em;
 }
 h5 {
-  font-size: 1.1em; 
+  font-size: 1.1em;
 }
 h6 {
-  font-size: 1em; 
+  font-size: 1em;
 }
 
 p,
@@ -201,14 +200,8 @@ table {
 }
 
 section {
-  background-image: linear-gradient(
-    135deg,
-    rgba(#888, 0),
-    rgba(#888, 0.02) 50%,
-    rgba(#fff, 0) 50%,
-    rgba(#fff, 0.05)
-  );
-  font-size: 30px;
+  background-color: #FCFAF2;
+  font-size: 1.5em;
   font-family: 'Lato', 'Avenir Next', 'Avenir', 'Trebuchet MS', 'Segoe UI',
     sans-serif;
   height: 720px;
