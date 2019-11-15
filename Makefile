@@ -1,5 +1,5 @@
 DIR=$(shell date +%Y%m%d)
-THEME='shironezumi'
+THEME='shironeri'
 
 install:
 	npm install -g @marp-team/marp-cli
@@ -12,7 +12,6 @@ create:
 	cat ./template/template.md >> $(DIR)/slide.md
 
 server:
-	marp -p -s --html --theme ./theme/$(THEME).css ./${DIR};
+	if [ $(THEME) = '' ]; then marp -p -s --html ./${DIR}; else marp -p -s --html --theme ./theme/      $(THEME).css ./${DIR};  fi
 
 run: create server
-
