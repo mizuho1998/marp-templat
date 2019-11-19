@@ -13,6 +13,9 @@ create:
 	cat ./template/template.md >> $(DIR)/slide.md
 
 server:
-	if [ $(THEME) = '' ]; then marp -p -s --html ./${DIR}; else marp -p -s --html --theme ./theme/      $(THEME).css ./${DIR};  fi
+	if [ $(THEME) = '' ]; then marp -p -s --html ${DIR}; else marp -p -s --html --theme ./theme/$(THEME).css ${DIR};  fi
+
+convert-pdf:
+	marp $(DIR)/slide.md --pdf --allow-local-files --html --theme ./theme/$(THEME) -o outpu.pdf
 
 run: create server
