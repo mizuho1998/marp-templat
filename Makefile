@@ -1,4 +1,5 @@
-DIR=$(shell date +%Y%m%d)
+# DIR=$(shell date +%Y%m%d)
+DIR='./'
 THEME='shironeri'
 
 install:
