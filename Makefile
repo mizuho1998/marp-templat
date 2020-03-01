@@ -6,7 +6,7 @@ install:
 	npm install -g @marp-team/marp-cli
 
 init-theme:
-	for file in $( ls . );do scss theme/$$file theme/$${file%\.scss}.css; done
+	for file in $(shell ls theme/*scss );do scss $$file $${file%\.scss}.css; done
 
 create:
 	mkdir -p $(DIR)
