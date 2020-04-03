@@ -2,12 +2,15 @@
 /*!
  * Marp / Marpit Gaia theme.
  *
- * @theme gaia
- * @author Yuki Hattori
+ * @theme shironeri
+ * @author mizuho
  *
  * @auto-scaling true
  * @size 4:3 960px 720px
  */
+
+@import "two_columns.scss";
+
 svg[data-marp-fitting='svg'] {
   max-height: 580px; }
 
