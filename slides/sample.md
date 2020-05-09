@@ -4,17 +4,22 @@ description: description
 theme: gaia
 paginate: true
 _paginate: false
-header:
-footer: 
 ---
 
 
 <!-- _class: lead -->
 # Titile Page
-### title page
+### subtitle 
 
 
 ---
 
 # Slide 1
 
+foo
+
+---
+
+# Slide 2
+
+bar
