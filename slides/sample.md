@@ -4,12 +4,14 @@ description: description
 theme: gaia
 paginate: true
 _paginate: false
+class:
+  - invert
 ---
 
 
 <!-- _class: lead -->
 # Titile Page
-### subtitle 
+### subtitle
 
 
 ---
@@ -17,6 +19,7 @@ _paginate: false
 # Slide 1
 
 foo
+bar
 
 ---
 
