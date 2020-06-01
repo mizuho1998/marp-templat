@@ -1,0 +1,15 @@
+@charset "UTF-8";
+
+/* @theme columns */
+
+.row {
+    display: flex;
+}
+
+.col2 {
+    flex: 49%;
+}
+
+.col3 {
+    flex: 33.3%;
+}

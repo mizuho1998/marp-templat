@@ -4,8 +4,6 @@ description: description
 theme: gaia
 paginate: true
 _paginate: false
-class:
-  - invert
 ---
 
 
@@ -23,6 +21,20 @@ bar
 
 ---
 
-# Slide 2
+# two columns
 
-bar
+
+<div class="row">
+    <div class="col2">left</div>
+    <div class="col2">right</div>
+</div>
+
+---
+
+# three columns
+
+<div class="row">
+    <div class="col3">left</div>
+    <div class="col3">center</div>
+    <div class="col3">right</div>
+</div>
